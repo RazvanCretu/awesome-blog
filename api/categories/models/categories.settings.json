@@ -14,9 +14,9 @@
     },
     "slug": {
       "type": "string",
-      "default": "auto-generated",
       "unique": true,
-      "required": true
+      "required": true,
+      "default": "Generated based on name."
     }
   }
 }
