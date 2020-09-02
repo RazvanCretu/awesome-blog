@@ -32,6 +32,12 @@
     "category": {
       "model": "categories",
       "via": "posts"
+    },
+    "slug": {
+      "type": "string",
+      "default": "Generated based on title.",
+      "required": true,
+      "unique": true
     }
   }
 }
