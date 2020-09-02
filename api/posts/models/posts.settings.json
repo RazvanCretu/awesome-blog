@@ -28,6 +28,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "category": {
+      "model": "categories",
+      "via": "posts"
     }
   }
 }

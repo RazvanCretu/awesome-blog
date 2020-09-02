@@ -17,6 +17,10 @@
       "unique": true,
       "required": true,
       "default": "Generated based on name."
+    },
+    "posts": {
+      "via": "category",
+      "collection": "posts"
     }
   }
 }
