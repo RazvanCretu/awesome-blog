@@ -1,8 +1,0 @@
-{
-  "provider": "cloudinary",
-  "providerOptions": {
-    "cloud_name": "razvan-images",
-    "api_key": "187571559684982",
-    "api_secret": "_j0xE3Tb7FVx3wac3Cx4qzHGP3w"
-  }
-}
