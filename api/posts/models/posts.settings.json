@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "posts",
   "info": {
-    "name": "Posts"
+    "name": "Posts",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": true
   },
   "attributes": {
     "title": {
@@ -15,7 +17,7 @@
     "content": {
       "type": "richtext"
     },
-    "published_at": {
+    "published_date": {
       "type": "date"
     },
     "cover": {
